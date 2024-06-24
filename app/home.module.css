@@ -1,0 +1,12 @@
+.checkboxIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.checkboxIcon :global(.ant-checkbox) {
+  display: none;
+}
+.checkboxIcon :global(.ant-checkbox-checked) + span {
+  color: #8ba2f6;
+}
